@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    height:100vh;
+    width:100vw;
+    border:1px solid rgb(183, 142, 223);
+}
+.title{
+    height: 10%;
+    width:50%;
+}
+.box{
+    height: 70%;
+    width:40%;
+    border:1px solid red;
+}
+.sub-box{
+    height: 94%;
+    width:49.5%;
+    border: 1px solid red;
+}
+.first-name{
+    height: 30%;
+    width:60%;
+}
+.last-name{
+    height:30%;
+    width:60%;
+}
+.boxes{
+    height:18%;
+    width:100%;
+    border:1px solid royalblue
+}
+.secure-container{
+    height: 15.1%;
+    width:100%;
+    border: 1px solid royalblue;
+}
+
+.email{
+    height:30%;
+    width:80%;
+}
+
+.password{
+    height:30%;
+    width:80%;
+
+}
+.newpassword{
+    height:30%;
+    width:80%;
+}
+.button{
+    height:40%;
+    width:50%;
+}
+.flex-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
